@@ -2,7 +2,7 @@ import os
 from time import gmtime, strftime
 from pocketsphinx import LiveSpeech
 
-#dictonary
+#dictionary
 '''
 turn on 
 turn off
