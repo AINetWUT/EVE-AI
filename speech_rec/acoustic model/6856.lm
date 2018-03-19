@@ -1,0 +1,85 @@
+Language model created by QuickLM on Sat Mar 17 20:52:55 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 18 words
+
+\data\
+ngram 1=18
+ngram 2=26
+ngram 3=18
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2361
+-1.8573 ARE -0.2950
+-1.8573 COMPUTER -0.2430
+-1.8573 FACE -0.2430
+-1.8573 GO -0.2950
+-1.8573 HOW -0.2950
+-1.8573 HUMAN -0.2430
+-1.8573 IS -0.2950
+-1.8573 OFF -0.2430
+-1.5563 ON -0.2361
+-1.8573 RECOGNIZE -0.2950
+-1.8573 SCREEN -0.2430
+-1.8573 THE -0.2950
+-1.8573 THERE -0.2430
+-1.5563 TURN -0.2825
+-1.8573 YOU -0.2430
+-1.8573 YOUTUBE -0.2430
+
+\2-grams:
+-1.2553 <s> COMPUTER 0.0000
+-1.2553 <s> GO 0.0000
+-1.2553 <s> HOW 0.0000
+-1.2553 <s> HUMAN 0.0000
+-1.2553 <s> IS 0.0000
+-1.2553 <s> ON -0.1761
+-1.2553 <s> RECOGNIZE 0.0000
+-0.9542 <s> TURN 0.0000
+-0.3010 ARE YOU 0.0000
+-0.3010 COMPUTER </s> -0.3010
+-0.3010 FACE </s> -0.3010
+-0.3010 GO YOUTUBE 0.0000
+-0.3010 HOW ARE 0.0000
+-0.3010 HUMAN </s> -0.3010
+-0.3010 IS THERE 0.0000
+-0.3010 OFF </s> -0.3010
+-0.6021 ON </s> -0.3010
+-0.6021 ON THE 0.0000
+-0.3010 RECOGNIZE FACE 0.0000
+-0.3010 SCREEN </s> -0.3010
+-0.3010 THE SCREEN 0.0000
+-0.3010 THERE </s> -0.3010
+-0.6021 TURN OFF 0.0000
+-0.6021 TURN ON -0.1761
+-0.3010 YOU </s> -0.3010
+-0.3010 YOUTUBE </s> -0.3010
+
+\3-grams:
+-0.3010 <s> COMPUTER </s>
+-0.3010 <s> GO YOUTUBE
+-0.3010 <s> HOW ARE
+-0.3010 <s> HUMAN </s>
+-0.3010 <s> IS THERE
+-0.3010 <s> ON THE
+-0.3010 <s> RECOGNIZE FACE
+-0.6021 <s> TURN OFF
+-0.6021 <s> TURN ON
+-0.3010 ARE YOU </s>
+-0.3010 GO YOUTUBE </s>
+-0.3010 HOW ARE YOU
+-0.3010 IS THERE </s>
+-0.3010 ON THE SCREEN
+-0.3010 RECOGNIZE FACE </s>
+-0.3010 THE SCREEN </s>
+-0.3010 TURN OFF </s>
+-0.3010 TURN ON </s>
+
+\end\
